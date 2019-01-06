@@ -1,0 +1,319 @@
+/* Added google fonts */
+html {
+  font-family: "Roboto", sans-serif;
+}
+/* Placeholder image, looks better with a bright image instead of solid color background */
+/* .jumbotron {
+    margin: 10px;
+    background-image: url("../images/i2.png");
+    height: auto;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+    text-shadow: 0 0 2px rgba(2, 2, 2, 2), 0 2px 2px rgba(2, 2, 2, 2);
+    width: 100%;
+  } */
+
+image {
+  width: 960px;
+  height: 300px;
+}
+
+#popDishes.p {
+  font-family: "Roboto", sans-serif;
+  color: #53c987;
+}
+#searchBtn {
+  background-color: #53c987;
+  border-color: #53c987;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  width: 150px;
+  position: relative;
+  color: #f2f2f2;
+  height: 50px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  opacity: 0.75;
+}
+#uploadImg {
+  background-color: #53c987;
+  border-color: #53c987;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  width: 150px;
+  position: relative;
+  color: #f2f2f2;
+  height: 50px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  opacity: 0.75;
+}
+#collapseBTN {
+  background-color: #53c987;
+  border-color: #53c987;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  width: 150px;
+  position: relative;
+  color: #f2f2f2;
+  height: 50px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  opacity: 0.75;
+}
+
+.popDishesImage {
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+}
+.dataReturn {
+  color: green;
+}
+h6 {
+  font-weight: bold;
+}
+footer {
+  background-image: url("../images/better_yelp-04.png");
+  opacity: 0.75;
+  /* background-color: #69e182; */
+  position: relative;
+  height: 20%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #f3f7f6;
+  text-align: center;
+  font-size: 13px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#card2,
+#searchDishesHeader,
+#searchDishes {
+  display: none;
+}
+
+
+.innerDivs {
+  float: left;
+  color: black;
+  height: 200px;
+}
+
+#searchDishes{
+  height: Auto;
+  overflow: hidden;
+}
+
+body {
+  background-color: #f4f7f6;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.autocomplete {
+  background: #fff;
+  position: relative;
+  width: 400px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  padding: 4px;
+  margin-left: 95px;
+}
+.autocomplete2 {
+  background: #fff;
+  position: relative;
+  width: 400px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  padding: 4px;
+}
+.autocomplete .close {
+  position: absolute;
+  font-size: 13px;
+  z-index: 10;
+  top: 10px;
+  /* left: calc(100% - 50px); */
+  color: black;
+  cursor: pointer;
+  display: none;
+}
+.autocomplete .close.visible {
+  display: block;
+}
+input {
+  padding: 10px 10px;
+  font-weight: 300;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: black;
+}
+.dialog {
+  width: 100%;
+  display: none;
+  min-height: 40px;
+  max-height: 150px;
+  overflow: scroll;
+  border-top: 1px solid #f4f4f4;
+}
+.dialog.open {
+  display: block;
+}
+.dialog div {
+  padding: 20px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: gray;
+}
+.dialog div:hover {
+  background: #f2f2f2;
+}
+
+.form-group {
+  /* display: none; */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  width: 60%;
+}
+
+label {
+  color: gray;
+  padding: 10px;
+  height: 20px;
+}
+
+#sel1 {
+  width: 100%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  /* display: none; */
+}
+
+.card {
+  /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24); */
+  border-color: white;
+}
+
+.card-header {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  background-color: #7aa8cf;
+  opacity: 0.85;
+}
+
+#imgPreview {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  width: 300px;
+  position: relative;
+  color: #f2f2f2;
+  height: 50px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+  margin-bottom: 25px;
+  /* display: none; */
+}
+
+.card-body {
+  height: 550px;
+}
+
+.blurred-container {
+  position: relative;
+  width: 100%;
+  height: 540px;
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+}
+.blurred-container > .img-src {
+  position: relative;
+  width: 100%;
+  height: 540px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.blur {
+  opacity: 0;
+}
+
+.logo-container {
+  margin-top: 10px;
+}
+.logo-container .logo {
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid #333333;
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+.logo-container .logo img {
+  width: 100%;
+}
+.logo-container .brand {
+  font-size: 18px;
+  color: #ffffff;
+  float: left;
+  height: 50px;
+  line-height: 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 60px;
+}
+.blurred-container .motto {
+  color: #ffffff;
+  font-size: 76px;
+  font-weight: 600;
+
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+  text-transform: uppercase;
+  top: 100px;
+  z-index: 3;
+
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 306px;
+  height: 0;
+}
+.blurred-container .motto .border {
+  float: left;
+  border: 3px solid #ffffff;
+  padding: 0px 30px;
+  text-align: center;
+}
+.blurred-container .motto .no-right-border {
+  border-right: none;
+}
+
+@media (max-width: 768px) {
+  .blurred-container .motto {
+    font-size: 60px;
+    width: 268px;
+    top: 130px;
+  }
+}
+
+#twitter {
+  font-size: 50px;
+  color: #53c987;
+}
+#fb {
+  font-size: 50px;
+  color: #53c987;
+}
+#github {
+  font-size: 50px;
+  color: #53c987;
+}
+#linkedin {
+  font-size: 50px;
+  color: #53c987;
+}
+
+#link {
+  color: black;
+}
